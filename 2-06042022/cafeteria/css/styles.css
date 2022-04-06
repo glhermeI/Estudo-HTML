@@ -1,0 +1,55 @@
+/*Arquivo de css(cascade style sheet - Folha de estilo em cascata é utilizado para fazer a camada de 
+formatação de um site em html
+*/
+/* 
+Vamos formatar todos os elementos presentes em uma pagina html, usando o *(asterisco e aplicar margem externa 
+e interna zero (0) e realizar o ajuste das caixa em html
+*/
+
+* {
+  margin: 0px; /* margem interna das caixas*/
+  padding: 0px; /* margem externa das caixas*/
+  box-sizing: border-box; /* ajuste de padding com as caixas sem a soma da com a largura*/
+}
+
+header {
+  height: 300px; /*aplicar altura ao cabeçalho*/
+  background-image: url("../img/cafeteria2.jpg"); /*aplicar imagem de fundo  ao cabeçalho*/
+  /* ajustar o tamanho*/
+  background-size: 100% cover;
+  /* ajustar o tamanho vertical */
+  background-position-y: -400px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 30pt;
+  color: rgb(238, 238, 238);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+  /* 1- primeiro elemento posição horizontal da sombra
+     2- segundo elemento posição posição vertical da sombra
+     3- efeito de esfumaçado da sombra
+     4 elemento cor
+  */
+}
+nav {
+  background-color: rgb(209, 167, 111);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  /* dispor os elementos em linha */
+  display: inline-block;
+  /*espaço entre os links*/
+  margin: 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-family: arial;
+  /*tirar o sublinado*/
+  text-decoration: none;
+}
