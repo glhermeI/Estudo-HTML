@@ -94,3 +94,49 @@ footer {
   width: 35px;
   height: 35px;
 }
+
+/*============= inicio da formatação css da pagina Home==================*/
+h2 {
+  font-family: "Lucida Sans";
+  font-size: 20pt;
+  border-bottom: 1px dashed darkred;
+  margin: 50px;
+}
+
+main p {
+  margin: 10px;
+  width: 80%;
+  /* para alinhar um objeto ao centro voce pode usar margin-left: e margin-right: auto para os dois; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: "Lucida Sans";
+  font-size: ;
+  /* espaçamento entre linhas com o comando line-height: ; */
+  line-height: 30px;
+}
+
+#imghome {
+  text-align: center;
+}
+#imghome img {
+  width: 400px;
+  height: 400px;
+  /* arredondamento dos cantos das imagens */
+  border-radius: 250px;
+  /* deixar a imagem mias opaca */
+  opacity: 0.7;
+  /* opacidade de 70% */
+  margin: 20px;
+  /* efeito de transição. isso fará com que a imagem tenha uma animação quando passar o mouse sobre ela */
+  transition: ease 1s;
+}
+#imghome img:hover {
+  opacity: 1;
+  /* width: 500px;
+  height: 500px; */
+  transform: scale(1.2);
+  /* transform: rotate(2deg); */
+}
+
+/* ===================fim da home ========================== */
