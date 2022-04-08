@@ -111,9 +111,9 @@ main p {
   margin-right: auto;
   text-align: justify;
   font-family: "Lucida Sans";
-  font-size: ;
+  font-size: 12pt;
   /* espaçamento entre linhas com o comando line-height: ; */
-  line-height: 30px;
+  line-height: 24px;
 }
 
 #imghome {
@@ -140,3 +140,32 @@ main p {
 }
 
 /* ===================fim da home ========================== */
+
+/* ===============inicios dos estilos da pagina historia=============*/
+#imghistoria {
+  /* centralizar o conteudo desta div */
+  text-align: center;
+  /* alterar a largura da caixa com imgs */
+  width: 90%;
+  /* centralizar a div que contem as imagens */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* vamos formatar o tamanho das imagens que estao dentro da caixa imghistoria */
+#imghistoria img {
+  width: 270px;
+  height: 270px;
+  margin: 2px;
+}
+#videohistoria {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#videohistoria iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*====================fim da pagina historia================== */
