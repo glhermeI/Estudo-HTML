@@ -237,3 +237,17 @@ h6 {
   cursor: pointer;
 }
 /*====================fim da pagina do cardapio================== */
+
+/* ==========inicio do estilo do mapa============= */
+#mapa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 40%;
+}
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* ==========inicio do estilo do mapa============= */
