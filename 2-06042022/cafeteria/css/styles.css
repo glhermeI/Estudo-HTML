@@ -55,6 +55,7 @@ nav ul li a {
 }
 main {
   padding: 20px;
+  background-color: rgba(247, 226, 202, 0.932);
 }
 footer {
   background-color: rgb(209, 167, 111);
@@ -169,3 +170,70 @@ main p {
   margin-bottom: 20px;
 }
 /*====================fim da pagina historia================== */
+
+/* ============inicio dos estilos para o cardapio========== */
+
+h3 {
+  /* converter as letras para maiusculas */
+  text-transform: uppercase; /*Uppercase = letras maiusculas*/
+  font-size: 20pt;
+  font-family: Verdana;
+  color: rgb(199, 123, 8);
+  margin: 30px;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  /* realizar a quebra de linha para os demais produtos que forem adicionados */
+  flex-wrap: wrap;
+  background-color: rgb(243, 219, 189);
+  border-radius: 60px;
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  /* determinar que o conteudo do proudto será flexivel */
+  display: flex;
+  flex-direction: row;
+  margin-right: 125px;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #imgprod img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px;
+}
+h4 {
+  font-family: Verdana;
+  font-size: 20pt;
+}
+h5 {
+  font-family: "Lucida Sans";
+  font-weight: lighter; /*retirar o negrito*/
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+}
+h6 {
+  font-family: "Lucida Sans";
+  color: darkred;
+  font-size: 17pt;
+  margin: 35px;
+  margin-left: auto;
+}
+
+#linha #produto:hover {
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+}
+/*====================fim da pagina do cardapio================== */
