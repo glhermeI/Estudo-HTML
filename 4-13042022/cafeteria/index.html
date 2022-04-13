@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Cafeteria,café,bolinho,capuccino,leite,toddy,nescau">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Cafeteria Dallas</title>
+
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Dallas</h1>
+    </header>  
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Seja-Bem Vindo à Nossa Cafeteria !</h2>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque aliquid nulla culpa quidem? Odit minus ab distinctio impedit debitis inventore numquam, dolorum nemo eum architecto molestias, quae laborum facere?</span><span>Dolorem culpa corporis, repudiandae repellat nemo recusandae saepe accusamus eligendi tempore totam dolores itaque veritatis hic corrupti deleniti nihil provident asperiores natus. Atque ducimus hic quas voluptatem sit ullam fuga.</span><span>Doloribus, consequatur sit? Placeat fuga esse harum, odio quidem autem tempore necessitatibus illo, rerum illum maxime recusandae. Quidem, repellendus, totam facere, enim deserunt ducimus quas officiis debitis nulla ipsa soluta!</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus saepe, neque dolorum quas iste libero velit incidunt beatae ab doloremque, placeat veritatis optio earum molestiae. Vero mollitia ex possimus.</span><span>Tempore commodi ad eum magnam quas porro quod eius velit beatae vel, voluptates eligendi dicta possimus laboriosam enim? Tempore, blanditiis adipisci molestiae qui quibusdam voluptate neque consequatur illo quasi quam.</span><span>Sapiente vitae, totam corrupti nulla accusantium voluptatem at? Quam veritatis, corporis ad, ipsum adipisci aperiam placeat tenetur repellendus qui voluptas officia omnis! Praesentium aliquam ratione eaque dolores at vitae suscipit?</span></p>
+        <div id ="imghome">
+            <img src="img/tomarcafe2.jpg" alt="Tomando café">
+            <img src="img/tomarcafe3.jpg" alt="Cliente tomando café">
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Neo Química Arena<br>
+            Av. Miguel Ignácio Curi, 111 - Artur Alvim<br>
+            São Paulo - SP, 08295-005 <br>
+            Telefone: 11 6742-8743
+        </div>
+
+        <div id="redes">
+            <ul>
+                <li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso Facebook"></a></li>
+                <li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso instagram"></a></li>
+                <li><a href="http://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="acesse nosso youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+    function abrir(){
+        document.getElementsByTagName("nav")[0].style.left="0px";
+    }
+    function fechar(){
+        document.getElementsByTagName("nav")[0].style.left="-250px";
+    }
+    </script>
+
+
+
+        
+</body>
+</html>

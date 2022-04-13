@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Cafeteria,café,bolinho,capuccino,leite,toddy,nescau">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Cafeteria Dallas</title>
+
+</head>
+<body>
+    <header>1
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Dallas</h1>
+    </header>  
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Fale Conosco</h2>
+        <form >
+        <!-- a caixa abaixo é do tipo texto, pois será digitado o nome do cliente -->
+        <input type="text" placeholder="Nome Completo "required>
+        <!-- a caixa abaixo será formatada com o tipo e-mail, isso permite a cofiguração do tipo e-mail e a validação -->
+        <input type="email" placeholder="E-Mail" required>
+        <!-- A caixa abaixo será do tipo tel (telefone) -->
+        <input type="tel" placeholder="Telefone" maxlength="11">
+        <select >
+        <option value="Selecione">Selecione</option>
+        <option value="Sugestão">Sugestão</option>
+        <option value="Crítica">Crítica</option>
+        <option value="Elogios">Elogios</option>
+        <option value="Dúvidas">Dúvidas</option>
+        </select>
+        <textarea>
+        </textarea>
+        <!-- o elemento abaixo será do tipo submit(sublimeter), ou seja, um botão para enviar os dados do formulario -->
+        <input type="submit" value="Enviar">
+
+
+    </main>
+    <footer>
+        <div id="endereco">
+            Neo Química Arena<br>
+            Av. Miguel Ignácio Curi, 111 - Artur Alvim<br>
+            São Paulo - SP, 08295-005 <br>
+            Telefone: 11 6742-8743
+        </div>
+
+        <div id="redes">
+            <ul>
+                <li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso Facebook"></a></li>
+                <li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso instagram"></a></li>
+                <li><a href="http://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="acesse nosso youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px";
+        }
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-250px";
+        }
+        </script>
+
+
+
+        
+</body>
+</html>
